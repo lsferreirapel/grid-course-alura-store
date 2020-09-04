@@ -7,19 +7,28 @@
         "content"
         "footer";
     grid-template-columns: auto;
-    grid-template-rows: 50px 100vh auto;
+    grid-template-rows: 50px auto auto;
 }
 .cabecalho {
     /* background-color: #00cc99; */
     grid-area: header;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
 }
  
 .conteudo {
     /* background-color: #ff8080; */
     grid-area: content;
+    padding: 0 2rem;
 }
 
 .rodape {
-    /* background-color: #0099ff; */
+    background-color: #fdfdfd;
+    color: #333333;
+    font-size: .8rem;
+    padding: 1rem;
+    text-align: center;
     grid-area: footer;
+
 }
